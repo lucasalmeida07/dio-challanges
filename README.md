@@ -1,1 +1,1 @@
-# Repo to store my asnwares to the challanges of the course "primeiros passo na tecnologia", from Digital Innovation One, when I was learning front-end
+# A repo to store my aswers to the challanges made by Digital Innovation One in the on-line course "Primeiros Passos em Tecnologia".
