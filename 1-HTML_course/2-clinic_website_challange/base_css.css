@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #cfaa65a2;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(20, 0, 1);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(51, 11, 14);
+    padding: 10px 20px 0px;
+}
+li{
+    font-size: x-large;
+    text-align: left;
+    margin: 10px;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 181, 98)
+}
+li:hover{
+    font-style: italic;
+}
+a:hover{
+    color: rgb(117, 4, 117);
+}
+.header {
+    font-family:"Viner Hand ITC" ;
+    background-color: rgb(20, 0, 1);
+    min-height: 150px;
+    color: rgb(240, 181, 98);
+    max-height: 200px;
+
+}
+img{
+    display: inline-block;
+}
+.title{
+    display: inline;
+    text-align: justify;
+    position:relative;
+
+    top: -200px;
+    left: 60%;
+}
+.content {
+    text-align: justify;
+    background-color: wheat;
+    min-height: 300px;
+    padding: 20px;
+    font-family: "Trebuchet MS";
+    color: rgb(148, 90, 3);
+}
+fieldset{
+    border-radius: 5px;
+    border-color: rgb(51, 11, 14);
+    border-style: dashed;
+}
+
+table{
+    
+    text-align: center;
+}
+table thead th{
+    font-size: large;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+table tbody tr td{
+    padding-left: 15px;
+    padding: 10px;
+    font-size: large;
+}
+table tbody tr:nth-child(even){
+    background-color: rgb(71, 44, 3);
+}
+.footer {
+    font-family: "Viner Hand ITC", "Trebuchet MS";
+    background-color: rgb(20, 0, 1);
+    min-height: 150px;
+    color: rgb(240, 181, 98);
+}
+.footer_text{
+    margin-left: 20px;
+    display: inline-block;
+}
