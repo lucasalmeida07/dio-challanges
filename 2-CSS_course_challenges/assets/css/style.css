@@ -43,6 +43,10 @@ footer{
     border-top: 1px solid #33A8DB;
 }
 
+button{
+    cursor: pointer;
+}
+
 /* CSS do Banner*/
 
 .banner{
@@ -124,9 +128,16 @@ footer{
 
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
-    border-radius: 30px;
+    /*border-radius: 30px;*/
 
 
+}
+
+.banner-content button:hover{
+    padding: 19px 36px;
+    background-image: -webkit-linear-gradient(#3BA1CD, #1572B7);
+    color: whitesmoke;
+    border: none;
 }
 
 /* CSS do conteudo dos cursos */
